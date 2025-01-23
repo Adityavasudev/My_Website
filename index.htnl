@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>ImageMap,CSS</title>
+		<link rel="stylesheet" type="text/css" href="D:\23BDS1067\13_01_2025 _ 23BDS1067 Aditya Vasudev _Lab5 css .css">
+		<style>
+		.c1{ text-align:center; color:#B1B1B1 ;font-family: sans-serif; }
+		#p1{ color: #8F8F8F; font-size: 20px ;font-family: Arial;}
+		#p2 { color: #6D6D6D; font-size: 12px ;font-family: Verdana; }
+		h1{text-align:center;font-family: Courier New;color:#D3D3D3;font-size: 40px;}
+		</style>
+    </head>
+    <body bgcolor ="#2E2E2E">
+	
+	<h1> 13.01.2025</h1>
+	<h1> Aditya Vasudev</h1>
+	<h1> 23BDS1067</h1>
+	<br>
+	<hr>
+	
+	<h1>ImageMap</h1>
+	<br>
+	<map name="map_example">
+	<area href="https://www.google.com/" alt="Google" target="_blank" shape=poly coords="30,100,140,50,290,220,180,280">
+	<area href="https://www.wikipedia.org/" alt="Wikepedia" target="_blank" shape=poly coords="190,75,200,60,495,60,495,165,275,165">
+	</map>
+	<img src="https://wallpapers-clan.com/wp-content/uploads/2024/04/aesthetic-grey-plants-desktop-wallpaper-cover.jpg" alt="image map example" width=500 height=332 usemap="#map_example">
+    <br>
+	<br>	
+	
+	<h1>Inline CSS</h1>
+	<br>
+	<h2 style="text-align:center;color:#B1B1B1;font-family: sans-serif;">This is the Heading at centre</h2>
+	<p style="color:#8F8F8F; font-size:20px; font-family: Arial;">I am a student at VIT,This is a blue text with 20px size </p>
+	<p style="color:#6D6D6D; font-size:12px; font-family: Verdana;">I am a Aditya Vasudev,This is a Yellow text with 12px size </p>
+	<br>
+	
+	<h1>Internal CSS</h1>
+	<br>
+	
+	<h2 class="c1">This is the Heading at center</h2>
+	<p id="p1">I am a student at VIT,This is a blue text with 20px size </p>
+	<p id="p2">I am a Aditya Vasudev,This is a Yellow text with 12px size </p>
+	<br>
+	
+	
+	<h1>External CSS</h1>
+	<br>
+	
+	<h2 class="c2">This is the Heading</h2>
+	<p id="p3">I am a student at VIT,This is a blue text with 20px size </p>
+	<p id="p4">I am a Aditya Vasudev,This is a Yellow text with 12px size </p>
+	<br>
+	<a href="" target="_blank">This is a Link</a>
+	<br>
+	
+	
+	
+    </body>
+
+</html>
