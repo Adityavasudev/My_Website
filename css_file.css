@@ -1,0 +1,31 @@
+.c2
+{ text-align:center;
+ color: #B1B1B1 ;
+ font-family: sans-serif;
+ }
+
+#p3{color: #8F8F8F;
+ font-size: 20px ;
+ font-family: Arial;
+ }
+#p4{ color: #6D6D6D; 
+font-size: 12px ;
+font-family: Verdana; 
+}
+
+a:link
+{
+	color:red;
+}
+a:visited
+{
+	color:red;
+}
+a:hover
+{
+	color:hotpink;
+}
+a:active 
+{
+	color:blue;
+}
